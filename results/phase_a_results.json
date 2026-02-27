@@ -1,0 +1,39 @@
+{
+  "phase": "A",
+  "eos": "SLy4",
+  "iterations": 2000,
+  "rmse": 0.0195,
+  "best_formula": "(tanh(1846.99*exp(-x)) + 0.331135)*tanh(0.049148384*x**(3/2))",
+  "best_complexity": 16,
+  "best_loss": 0.000519,
+  "validated_candidates": {
+    "complexity_19": {
+      "M_max": 2.091,
+      "R_1.4": 11.69,
+      "R_2.0": 11.0,
+      "passed": true,
+      "formula": "(tanh(1812.84*exp(-x)) + 0.3308)*tanh(0.04948*x**(3/2))"
+    },
+    "complexity_16": {
+      "M_max": 2.087,
+      "R_1.4": 11.67,
+      "R_2.0": 10.96,
+      "passed": true,
+      "formula": "(tanh(1847.0*exp(-x)) + 0.331)*tanh(0.04915*x**(3/2))"
+    },
+    "complexity_15": {
+      "M_max": 2.04,
+      "R_1.4": 11.46,
+      "R_2.0": 10.52,
+      "passed": true,
+      "formula": "(tanh(1242.8*exp(-x)) + 0.3192)*tanh(0.04655*x**(3/2))"
+    },
+    "complexity_9": {
+      "M_max": 2.068,
+      "R_1.4": 11.15,
+      "R_2.0": 10.5,
+      "passed": true,
+      "formula": "2.069/(sqrt(x) + 97.47*exp(-x))"
+    }
+  }
+}
