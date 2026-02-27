@@ -145,7 +145,7 @@ If you use this code or the B_c15 formula, please cite:
   note    = {submitted}
 }
 ```
-
+[![DOI](https://zenodo.org/badge/1168339376.svg)](https://doi.org/10.5281/zenodo.18799902)
 ## License
 
 MIT
