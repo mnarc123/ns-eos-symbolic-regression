@@ -1,0 +1,75 @@
+{
+  "phase": "B",
+  "eos_set": [
+    "sly4",
+    "apr4",
+    "bsk24",
+    "dd2",
+    "fsu2r",
+    "qmcrmf3"
+  ],
+  "iterations": 5000,
+  "weighted_rmse": 0.00115,
+  "best_formula": "tanh(0.04418452*x**2)*tanh(exp(-tanh(x - 7.8511634)))",
+  "best_complexity": 14,
+  "validated_candidates": {
+    "B_c15_tanh_tanh": {
+      "formula": "tanh(x*tanh(0.044691*x))*tanh(exp(-tanh(x - 7.691)))",
+      "complexity": 15,
+      "M_max": 2.176,
+      "R_1.4": 11.02,
+      "R_2.0": 10.9,
+      "physics_pass": true,
+      "obs_pass": true
+    },
+    "B_c17_shift": {
+      "formula": "tanh(0.036305*x*(x + 0.7405))*tanh(exp(-tanh(x - 8.0)))",
+      "complexity": 17,
+      "M_max": 2.186,
+      "R_1.4": 11.67,
+      "R_2.0": 11.37,
+      "physics_pass": true,
+      "obs_pass": true
+    },
+    "B_c14_tanh_exp": {
+      "formula": "tanh(0.04418*x**2)*tanh(exp(-tanh(x - 7.851)))",
+      "complexity": 14,
+      "M_max": 2.175,
+      "R_1.4": 11.0,
+      "R_2.0": 10.88,
+      "physics_pass": true,
+      "obs_pass": false,
+      "note": "R_1.4=11.00, borderline"
+    },
+    "B_c13_ratio": {
+      "formula": "tanh(0.03435*x**2)/(0.07638*x + 0.5278)",
+      "complexity": 13,
+      "M_max": 2.197,
+      "R_1.4": 11.51,
+      "R_2.0": 11.35,
+      "physics_pass": false,
+      "obs_pass": true,
+      "note": "pQCD limit violated"
+    },
+    "B_c12_tanh_prod": {
+      "formula": "tanh(9.7007/x)*tanh(0.04570*x**2)",
+      "complexity": 12,
+      "M_max": 2.185,
+      "R_1.4": 11.1,
+      "R_2.0": 11.01,
+      "physics_pass": false,
+      "obs_pass": true,
+      "note": "pQCD limit violated"
+    },
+    "B_c10_simple": {
+      "formula": "tanh(tanh(0.05759*x**2)) + 0.01371",
+      "complexity": 10,
+      "M_max": 2.278,
+      "R_1.4": 12.13,
+      "R_2.0": 12.1,
+      "physics_pass": false,
+      "obs_pass": true,
+      "note": "pQCD limit violated"
+    }
+  }
+}
